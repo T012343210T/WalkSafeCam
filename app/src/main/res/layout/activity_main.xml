@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:text="راهنما: با فعال کردن، یک نوار از تصویر دوربین پشت (واید) در بالای صفحه نشان داده می‌شود؛ بقیه صفحه مثل همیشه کار می‌کند." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ارتفاع نوار دوربین:" />
+
+    <SeekBar
+        android:id="@+id/seekHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="45"
+        android:progress="25" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="فعال کردن دوربین بالای صفحه" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="خاموش کردن" />
+
+</LinearLayout>
